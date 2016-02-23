@@ -1,0 +1,29 @@
+{
+  "name": "generate-by-my-dev-prev",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/lib/**/*",
+    "cover": "istanbul cover _mocha test/lib/**/*"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "cl-spawner": "0.0.1",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5",
+    "run-sequence": "^1.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
